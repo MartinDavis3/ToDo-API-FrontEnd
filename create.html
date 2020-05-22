@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do API Front-End | Create</title>
+
+  <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href=".css/main.css">
+
+  <script src="./vendor/jquery/jquery.js"></script>
+  <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./vendor/axios/axios.min.js" defer></script>
+
+  <script src="./js/scripts.js" defer></script>
+</head>
+<body>
+  <h1>To-Do API Front-End | Create</h1>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="./index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./create.html">Create</a>
+    </li>
+  </ul>
+  <h2>Create To-Do</h2>
+  <form id="create">
+    <div class="form-group">
+      <label for="task">Task</label>
+      <input type="text" class="form-control" id="task">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="completed" value="true">
+      <label class="form-check-label" for="completed">Completed</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+</body>
+</html>
